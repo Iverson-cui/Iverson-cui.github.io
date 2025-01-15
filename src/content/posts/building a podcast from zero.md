@@ -1,3 +1,12 @@
+---
+title: building a podcast from zero
+category: 技术
+tags:
+  - asctro
+date: 2025-01-15
+summary: 本文为本人通过astro搭建博客的全过程。
+---
+
 本文记录了本人从零开始利用astro框架，gyoza主题将博客部署在GitHub pages上的全过程。部署之前本人对javascript有关项目架构，workflow流程一无所知，对git有不多的基础，对github pages一无所知。部署过程中经历了许多弯路，特此将学到的东西记录下来。为了方便，图片没有设置图床，但在自己的笔记内有完整的备份。如果有兴趣交流可以通过email来获取完整笔记。
 
 # basic stuff you should know
