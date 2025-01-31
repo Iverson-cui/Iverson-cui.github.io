@@ -1,3 +1,12 @@
+---
+title: using apple news from mainland
+category: 兴趣
+tags:
+  - asctro
+date: 2025-01-29
+summary: 本文为本人通过查阅资料成功在国行mac上使用到Apple news的过程。
+---
+
 本文记录了我在国区成功在mac上使用Apple news的过程。
 
 # 你需要的
