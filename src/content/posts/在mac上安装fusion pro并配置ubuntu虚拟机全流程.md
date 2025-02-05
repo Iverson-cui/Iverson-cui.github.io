@@ -2,7 +2,7 @@
 title: using ubunto virtual machine in mac
 category: 技术
 tags:
-  - asctro
+  - 一生一芯
 date: 2025-01-31
 summary: 本文为本人通过查阅资料在mac上下载fusion pro并配置ubuntu虚拟机的过程。
 ---
@@ -22,6 +22,7 @@ summary: 本文为本人通过查阅资料在mac上下载fusion pro并配置ubun
 
 1. 安装过程中有一处选择alternate sources，需要选择mirror，可以自行寻找国内镜像源网址，否则后续会出现超时。
 2. 我在安装完之后是server版，也就是只有command line，没有desktop，需要用apt-get自行下载desktop版。
+   这里补充一点，Linux distribution的各个系统里，命令行和桌面端是分开的。桌面也是个单独的应用程序，和Linux内核是分开开发的。常用的桌面端程序有：KDE plasma，GNOME，xXfce等。这里下载的ubuntu desktop也是一个应用程序。
 
 # 补充知识
 
