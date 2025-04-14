@@ -6,9 +6,13 @@ date: 2025-03-01
 summary: 本文为本人在vscode上配置c/cpp debug的流程。
 ---
 
+首先要确保你有c++ extensions。插件本身不具有编译功能，使用的是你电脑上的编译器。所以还要确保电脑上有编译器如clang g++等等。
 # 用vscode运行，生成tasks.json文件
 vscode只是一个文本编辑软件，他的GUI根据你的.json文件来执行相应的功能。比如vscode的设置其实就是在settings.json文件中更改相应的key和value即可。在你写完一个c或c++文件后，需要手动配置编译器 debug工具等等，这些也是需要用.json文件来指示。
 写好第一个C++文件后，首次运行时vscode会检测你系统上具有的编译器 让你选择。选择后，会根据你的选择在当前文件夹的.vscode文件夹下生成tasks.json文件，记录了你运行编译的一些关键选项。下次就不需要选择了，因为下次会根据生成的tasks.json文件完成配置。
+
+vscode+cpp file+cpp extensions+tasks.json 这四个就能运行和调试cpp文件。可以看[这个](https://zhuanlan.zhihu.com/p/348111473)帖子。以下提到的tasks.json文件可以让系统自动生成。
+
 tasks.json文件实例：
 ```
 {
@@ -79,6 +83,12 @@ The problemMatcher value selects the output parser to use for finding errors and
 group里面的isDefault设置了clang是默认的。取消默认直接"group":"build",即可。
 In case you need to change the default compiler, you can run Tasks: Configure Default Build Task in the Command Palette. Alternatively you can modify the tasks.json file
 # 用vscode debug文件
+注意：在上文的tasks.json生成后就已经可以打断点，debug了。launch.json是为了个性化debug以及保存这个个性化。[官网](https://code.visualstudio.com/docs/cpp/config-clang-mac)的解释是：
+```
+When you debug with the play button or F5, the C++ extension creates a dynamic debug configuration on the fly.
+
+There are cases where you'd want to customize your debug configuration, such as specifying arguments to pass to the program at runtime. You can define custom debug configurations in a launch.json file.
+```
 debug同样点击右上角的按钮，会让你选debug还是run。如果选debug，也会弹出来让你选择使用哪个工具。在设置了断点的情况下，就会进入正常的step in step out等流程。
 debug的情况也在相同的位置有launch.json文件。以下是个例子：
 ``` 
