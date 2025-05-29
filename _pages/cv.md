@@ -42,10 +42,10 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  <!-- <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+  {% endfor %}</ul> -->
+  All of my related publications are under peer review or in progress.
 
   
 Service and leadership
