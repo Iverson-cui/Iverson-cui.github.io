@@ -38,13 +38,10 @@ Skills
 ======
 * Programming: C/C++, verilog, python
 * Language: English, Chinese(native), Japanese
-* Tools: FPGA programming, Linux programming workflow etc.
+* Tools: git, makefile, latex, FPGA programming, Linux programming workflow etc.
 
 Publications
 ======
-  <!-- <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
   All of my related publications are under peer review or in progress.
 
   
