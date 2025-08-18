@@ -13,13 +13,14 @@ Hello! My name is Yubo Cui(崔雨博). I'm currently an undergraduate at Tianjin
 Research interest
 ======
 
-My research interest main includes applied cryptography, verifiable machine learning, zero knowledge proofs;computer architecture(RISC-V);computer network etc. I'm always ready to embark on a new journey of new research field about computer science!
+My research interest main includes applied cryptography, verifiable machine learning, zero knowledge proofs, multi-party computing(MPC);computer architecture(RISC-V);computer network etc. I'm always ready to embark on a new journey of new research field about computer science!
 
 # Hobbies and daily life
 
 My hobby expands generally to many fields.
+- technology
 - sports(basketball, running, swimming, gym etc.)
-- reading books(I keep my note of reading in the blog)
-- watching TV series(Friend, Modern Family, Breaking Bad, Better Call Saul, Attack on Titan, Unnatural death etc.)
-- enjoying music(classical music, popular music)
+- reading books(I also keep my note of reading in the blog)
+- watching TV series
+- enjoying music
 - playing games
